@@ -22,8 +22,7 @@ router.get("/:id", (req, res) => {
   // be sure to include its associated Products
   try {
     const categoryData = Category.findByPk(req.params.id, {
-      // JOIN with locations, using the Trip through table
-      include: [{ model: Product }],
+      include: [{ model: Product, attributes: ["category_id"] }],
     });
 
     if (!categoryData) {
@@ -31,9 +30,9 @@ router.get("/:id", (req, res) => {
       return;
     }
 
-    res.status(200).json(travellerData);
+    res.status(200).json(categoryData);
   } catch (err) {
-    res.status(500).json(err);
+    res.status(500).json(err.message);
   }
 });
 
