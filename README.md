@@ -30,19 +30,31 @@ User Story:
 
 ## Mock up
 
-![alt text](images/desktop.png)
+![alt text](image/getproduct.PNG)
 
 ## Installation
 
-npm install
+Both Node.js and MySQL must be installed on your computer.
+
+- Install dependencies
+  npm install
+
+-Open up MySQL shell and input
+source db/schema.sql
+and
+
+use ecommerce_db
+Then quit MySQL shell and input the following in your terminal
+
+-npm run seed
+to start running application simply input
+
+-node server.js
+Open up Insomnia core to GET, POST, PUT and DELETE from different routes.
 
 ## Usage
 
 For instruction on how to use this project, please refer to walk-through video.
-
-## Test
-
-npm test
 
 ## Contribution
 
