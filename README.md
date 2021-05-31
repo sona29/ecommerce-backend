@@ -74,4 +74,4 @@ Email: sona.shrestha004@gmail.com
 
 ## Walk-through Video
 
-##### Video: [ORM-Ecommerce Back End Walk-through](https://drive.google.com/file/d/1qr1ET33thcApEfpYth0lVQtkQdvF2FQr/view)
+##### Video: [ORM-Ecommerce Back End Walk-through](https://drive.google.com/file/d/1usKntQcsn-ZfOAA9TuFURp3poSSJoF7b/view)
